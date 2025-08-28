@@ -427,6 +427,19 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-search-selected-match-color: black;
   --jp-search-unselected-match-background-color: var(--jp-night-blue);
   --jp-search-unselected-match-color: var(--jp-ui-font-color0);
+
+  /* Button colors */
+  --jp-accept-color-normal: var(--jp-night-blue);
+  --jp-accept-color-hover: #4a8dcc;
+  --jp-accept-color-active: #3f7bb3;
+
+  --jp-reject-color-normal: var(--jp-night-grey);
+  --jp-reject-color-hover: #7a8389;
+  --jp-reject-color-active: #6b7379;
+
+  --jp-warn-color-normal: var(--jp-night-orange);
+  --jp-warn-color-hover: #e66b4f;
+  --jp-warn-color-active: #d5583f;
 }
 
 .jp-InputArea-editor {
